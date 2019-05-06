@@ -1,20 +1,21 @@
 // convert roman numerals to arabic 
 
-function romannumconverter(num){
+function romannumconverter(num)
+{
 
-let num = i;
 let resultreturn = 0;
 
-    for(i=0; i < num.length; i++){
+    for(i=0; i < num.length; i++)
+    {
 
-        const twoletters = dict[num[i]num[i+1]]
+        const twoletters = dict[ num[i] num[i+1] ]
 
-        if(num.length > i+1 && twoletters){
-
+        if(num.length > i+1 && twoletters)
+        {
             resutreturn+=twoletters;
-            i++
-            
+            i++;         
         }
+
         return resultreturn+= dict[num[i]];
 
     }
@@ -22,7 +23,8 @@ let resultreturn = 0;
 
 
 
-const dict = {
+const dict = 
+    {
     I: 1,
     V: 5,
     X: 10,
@@ -30,6 +32,6 @@ const dict = {
     C: 100,
     D: 500,
     M: 1000,
-};
+    };
 return resultreturn
 }
